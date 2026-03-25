@@ -34,6 +34,15 @@
 3. аюулгүй байдлын хамгаалалт
 4. update хийхийн өмнө backup авна.
 
+## 5-р хэсэг query command
+
+create user 'admin_user'@'localhost'
+identified by '1234';
+
+grant all privileges on library_db. * to 'admin_user'@'localhost';
+
+show grants for 'admin_user'@'localhost';
+show grants for 'report_user'@'localhost';
 
 ## Файлын бүтэц
 /Soril1
